@@ -32,5 +32,29 @@ Realize testes com alguns sinais (escolha os sinais que julgar serem interessant
 * A parte impar Xi[n]: n × Xi[n].
 * A soma entre as partes par e impar Xp[n] + Xi[n]: n × Xp[n] + Xi[n].
 
+### Soma de Convolução
+
+Implemente uma função que realize a convolução entre dois sinais de tempo discreto x[n] e h[n]. A função deve apresentar a seguinte interface:
+* Entrada:
+````
+– Sinal x[n] (arranjo/vetor com os valores da variável dependente).
+– Sinal h[n] (arranjo/vetor com os valores da variável dependente).
+– Valor do tempo inicial de referência n0 (variável independente).
+````
+
+* Saída: 
+````
+– Sinal par y[n] (arranjo/vetor com valores da variável dependente).
+– Valor do tempo inicial n0 (variável independente).
+````
+
+Realize testes com alguns sinais (escolha os sinais que julgar serem interessantes), apresentando sempre quatro gráficos:
+
+* O sinal x[n]: n × x[n].
+* O sinal h[n]: n × h[n].
+* O sinal y[n]: n × y[n].
+
+
+
 
 
